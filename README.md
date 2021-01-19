@@ -16,17 +16,27 @@ Using postman or any services client you can test against following endpoints:
 * Add a new enrollee - HTTP POST localhost:8080/api/v1/enrollees/
 * Modify an existing enrollee - HTTP PUT localhost:8080/api/v1/enrollees/:enrolleeid/
 * Remove an enrollee entirely - HTTP DELETE localhost:8080/api/v1/enrollees/:enrolleeid/
-* Add dependents to an enrollee - HTTP POST localhost:8080/api/v1/enrollees/:enrolleeid/dependent
-* Modify existing dependents - HTTP PUT localhost:8080/api/v1/enrollees/:enrolleeid/dependent/:dependent
-* Add dependents to an enrollee - HTTP DELETE localhost:8080/api/v1/enrollees/:enrolleeid/dependent/:dependent
+* Add dependent to an enrollee - HTTP POST localhost:8080/api/v1/enrollees/:enrolleeid/dependent
+* Modify existing dependent - HTTP PUT localhost:8080/api/v1/enrollees/:enrolleeid/dependent/:dependent
+* Remove existing dependent from an enrollee - HTTP DELETE localhost:8080/api/v1/enrollees/:enrolleeid/dependent/:dependent
 
 ## Example JSON Request - Add a new enrollee / Modify an existing enrollee
+```
 {
   "activationStatus": true,
   "birthDate": "1987-02-29",
   "name": "Kenny Gee",
   "phoneNumber": "548-828-6089"
 }
+```
+
+## Example JSON Request - Add dependent to an enrollee / Remove existing dependent from an enrollee
+```
+{
+  "birthDate": "2020-09-10",
+  "name": "John Smith"
+}
+```
 
 ## Requirements
 
