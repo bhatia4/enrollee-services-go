@@ -43,7 +43,7 @@ Using postman or any services client you can test against following endpoints:
 Tested and run against Go >= 1.15.6. 
 Uses Go modules
 
-## Links
+## Links used as reference while coding
 * [https://github.com/gin-gonic/gin](https://github.com/gin-gonic/gin)
 * [https://github.com/gin-gonic/gin#gin-web-framework](https://github.com/gin-gonic/gin#gin-web-framework)
 * [https://godoc.org/github.com/gin-gonic/gin](https://godoc.org/github.com/gin-gonic/gin)
