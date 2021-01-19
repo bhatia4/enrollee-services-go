@@ -5,8 +5,8 @@ Coding completed by [Kunal Bhatia](https://github.com/bhatia4/), as as part of c
 GO Libraries and modules used:
 * [GORM](https://gorm.io/) - ORM library for Golang 
 * [gorm.io/driver/postgres](https://github.com/go-gorm/postgres) - GORM Postgres drivers
-* [Gin Web Framework](github.com/gin-gonic/gin) - Helps to quickly build and scale up web services 
-* [github.com/satori/go.uuid](github.com/satori/go.uuid) - UUID package lib
+* [Gin Web Framework](https://github.com/gin-gonic/gin) - Helps to quickly build and scale up web services 
+* [github.com/satori/go.uuid](https://github.com/satori/go.uuid) - UUID package lib
 
 ## Installation
 
