@@ -1,6 +1,6 @@
 # Enrollees Services in GO
 
-Coding completed by [Kunal Bhatia] (https://github.com/bhatia4/), as as part of coding challenge (Challenge details [here](https://github.com/bhatia4/enrollee-services-go/backend-challenge.md))
+Coding completed by [Kunal Bhatia](https://github.com/bhatia4/), as as part of coding challenge (Challenge details [here](https://github.com/bhatia4/enrollee-services-go/blob/main/backend-challenge.md))
 
 GO Libraries and modules used:
 * [GORM](https://gorm.io/) - ORM library for Golang 
@@ -19,6 +19,14 @@ Using postman or any services client you can test against following endpoints:
 * Add dependents to an enrollee - HTTP POST localhost:8080/api/v1/enrollees/:enrolleeid/dependent
 * Modify existing dependents - HTTP PUT localhost:8080/api/v1/enrollees/:enrolleeid/dependent/:dependent
 * Add dependents to an enrollee - HTTP DELETE localhost:8080/api/v1/enrollees/:enrolleeid/dependent/:dependent
+
+## Example JSON Request - Add a new enrollee / Modify an existing enrollee
+{
+  "activationStatus": true,
+  "birthDate": "1987-02-29",
+  "name": "Kenny Gee",
+  "phoneNumber": "548-828-6089"
+}
 
 ## Requirements
 
