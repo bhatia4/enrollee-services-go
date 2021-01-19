@@ -44,10 +44,6 @@ Tested and run against Go >= 1.15.6.
 Uses Go modules
 
 ## Links
-* [RFC 4122](http://tools.ietf.org/html/rfc4122)
-* [DCE 1.1: Authentication and Security Services](http://pubs.opengroup.org/onlinepubs/9696989899/chap5.htm#tagcjh_08_02_01_01)
-
-
 * [https://github.com/gin-gonic/gin](https://github.com/gin-gonic/gin)
 * [https://github.com/gin-gonic/gin#gin-web-framework](https://github.com/gin-gonic/gin#gin-web-framework)
 * [https://godoc.org/github.com/gin-gonic/gin](https://godoc.org/github.com/gin-gonic/gin)
@@ -55,7 +51,6 @@ Uses Go modules
 * [https://github.com/satori/go.uuid](https://github.com/satori/go.uuid)
 * [https://medium.com/@the.hasham.ali/how-to-use-uuid-key-type-with-gorm-cc00d4ec7100](https://medium.com/@the.hasham.ali/how-to-use-uuid-key-type-with-gorm-cc00d4ec7100)
 * [https://golang.org/pkg/encoding/json/](https://golang.org/pkg/encoding/json/)
-* 
 * [https://travix.io/type-embedding-in-go-ba40dd4264df](https://travix.io/type-embedding-in-go-ba40dd4264df)
 * [https://daniel-dc.medium.com/build-a-rest-api-with-golang-from-scratch-postgresql-with-gorm-and-gin-web-framework-3d3f95ccf2e7](https://daniel-dc.medium.com/build-a-rest-api-with-golang-from-scratch-postgresql-with-gorm-and-gin-web-framework-3d3f95ccf2e7)
 * [https://gorm.io/docs/connecting_to_the_database.html](https://gorm.io/docs/connecting_to_the_database.html)
