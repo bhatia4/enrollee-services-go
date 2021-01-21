@@ -50,6 +50,7 @@ Uses Go modules
 * More details on tables above [here](https://htmlpreview.github.io/?https://github.com/bhatia4/enrollee-services-go/blob/master/db/enrolleesdb.html)
 * DDL scripts on creating above tables on your own Postgres database server [here](https://github.com/bhatia4/enrollee-services-go/blob/master/db/enrolleesdb.sql)
 * To update database server and client connection goto models/database.go file found [here](https://github.com/bhatia4/enrollee-services-go/blob/main/models/database.go). Appropriately change the constant string - dsn
+* db/enrolleesdb.dbm is a Database Model file that encompasses the above data model. The file can be viewed/edited only in pgModeler (PostgreSQL Database Modeler)
 
 ## Links used as reference while coding
 * [https://github.com/gin-gonic/gin](https://github.com/gin-gonic/gin)
